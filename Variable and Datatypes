@@ -145,3 +145,69 @@ t: Tab
 
 Print statement - to display output output
 can use sep and end parameters to customize the output
+
+Operators
+
+Arithmetic Operators
++ - Addition
+- - Subtraction
+* - Multiplication
+/ - Division
+** - Exponentiation
+// - Floor Division
+% - Modulus
+
+ALT and click - to simultaneously change values in 2 places
+CTRL+/ - To comment the line
+
+Comparison Operators
+== Equal
+!= Not Equal
+> Greater than
+< Less than
+>= Greater than or Equal
+<= Less than or Equal
+
+
+Logical Operators
+
+1. and ,or, not
+
+and = always return a true when both values are true 
+otherwise it will return false
+
+or - one out of 2 values should be true otherwise it will
+output false
+
+not - when negate a true or false
+not(true) - False
+not(False) - True
+used to create conditional programs in Python
+
+Assignment Operators
+=
++=
+-=
+*=
+/=
+%=
+**=
+//=
+
+Membership Operators
+
+in, not,in 
+
+Identity Operators:
+is , is not 
+
+
+***** IMPORTANT POINTS ****** 
+variable store data and python supports multiple data types
+Typecasting allows you to convert between datatypes 
+input() - to take user input
+print() - to display output
+Comments and escape sequences -> help to make code readable
+Python provides variety of operators for performing operations
+on data.
+
