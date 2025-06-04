@@ -1,1 +1,25 @@
+Variables - (data Stored in Memory Locations)
+Why do we store data in Memory location ?
+- Because we want to manipulate it throughtout the program
+
+String - to store a name or piece of text
+Integer - Age 
+Float - CGPA
+
+Variable is created the moment you assign a value using Assignment Operator
+(=)
+
+Dynamically Typed language - 
+age=34 (integer)
+name="Harry" (String)
+cgpa=4.8 ( Floating)
+
+
+Statically type language - need a explictly declaration of variable  ( C)
+
+#Rule of defining a variable in Python
+Variable names must start with a letter (a-z,A-z) or an underscore (_)
+They can contain letters , numbers and underscore
+Variable names are case-sensitive (age and Age are different)
+Avoid using Python Keywords as variable (if , for , while) as variable names
 
