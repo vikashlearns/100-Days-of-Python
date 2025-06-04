@@ -211,3 +211,31 @@ Comments and escape sequences -> help to make code readable
 Python provides variety of operators for performing operations
 on data.
 
+
+-> Conditionals 
+- basic login building blocks
+
+If , else ,elif 
+
+-> Match case 
+
+->For Loops - used to iterate over a sequence
+they execute a block of code repeatedly for each item in the sequence
+
+range function goes from 1 to n-1
+
+->while Loops - executes a block of code as long as condition is TRUE
+
+->infinite loops:- be careful to avoid infinite loops by ensuring the condition eventually becomes false
+
+-> break - to exit a loop 
+-> continue - skips the rest of code in current iteration and moves to the next iteration
+-> Pass - placeholder that does nothing - it is used when syntax requires a statement but no action is needed
+
+**** Important *****
+
+Use if,elif and else for decision making
+use match-case for pattern matching 
+use for loops - to iterate over sequence
+while loops - for repeated execution based on conditions
+Control loop execution with break,continue and pass
