@@ -1,34 +1,142 @@
-Variables - (data Stored in Memory Locations)
-Why do we store data in Memory location ?
-- Because we want to manipulate it throughtout the program
+Here’s a cleaned-up, GitHub-ready version of your Python notes, formatted in Markdown. You can name the file something like `01_variables_and_basics.md` and add it to your repo.
 
-String - to store a name or piece of text
-Integer - Age 
-Float - CGPA
+---
 
-Variable is created the moment you assign a value using Assignment Operator
-(=)
+# 📘 Python Basics – Variables, Data Types, Input & Output
 
-Dynamically Typed language - 
-age=34 (integer)
-name="Harry" (String)
-cgpa=4.8 ( Floating)
+---
 
+## 💾 Variables – Data Stored in Memory
 
-Statically type language - need a explictly declaration of variable  ( C)
+### Why store data in memory?
 
-#Rule of defining a variable in Python
-Variable names must start with a letter (a-z,A-z) or an underscore (_)
-They can contain letters , numbers and underscore
-Variable names are case-sensitive (age and Age are different)
-Avoid using Python Keywords as variable (if , for , while) as variable names
+* To **manipulate** it throughout the program.
 
-Python supports serveral built in data types:
-Integers (int) - whole number 
-Floats (float) - Decimal numbers
-String (str) - Text data enclosed in quotes ""
-Booleans (bool)- Represent true or false
-Lists -  Ordered, mutable collections ([1,2,3])
-Tuples - Ordered immutable collections ( (1,2,3) ) (immutable - you cannot change)
-Sets - Unordered collections of unique elements ( {1,2,3} )
-Dictionaries: Key-value pairs ( {"name": "Alice", "age"; 25})
+### Examples of data:
+
+* `String` → To store a name or piece of text
+* `Integer` → Age
+* `Float` → CGPA
+
+---
+
+## 🆎 Variable Declaration in Python
+
+* A variable is created the moment you assign a value using the **assignment operator** `=`
+
+```python
+age = 34        # Integer
+name = "Harry"  # String
+cgpa = 4.8      # Float
+```
+
+### 🔄 Python is a **dynamically typed language**
+
+* You don’t need to declare data types explicitly.
+
+### 🔒 Statically typed languages (like C) require explicit declarations:
+
+```c
+int age = 34;
+```
+
+---
+
+## ✅ Rules for Naming Variables in Python
+
+* Must **start** with a letter (a–z, A–Z) or underscore `_`
+* Can contain **letters**, **numbers**, and **underscores**
+* Are **case-sensitive** (`age` and `Age` are different)
+* Avoid using **Python keywords** (e.g., `if`, `for`, `while`) as variable names
+
+---
+
+## 🧠 Python Built-in Data Types
+
+| Type    | Example             | Description                       |
+| ------- | ------------------- | --------------------------------- |
+| `int`   | `25`                | Whole numbers                     |
+| `float` | `4.5`               | Decimal numbers                   |
+| `str`   | `"Hello"`           | Text data                         |
+| `bool`  | `True`, `False`     | Boolean logic                     |
+| `list`  | `[1, 2, 3]`         | Ordered, mutable collection       |
+| `tuple` | `(1, 2, 3)`         | Ordered, **immutable** collection |
+| `set`   | `{1, 2, 3}`         | Unordered, unique values          |
+| `dict`  | `{"name": "Alice"}` | Key–value pairs                   |
+
+---
+
+## 🔁 Type Casting – Converting Between Data Types
+
+```python
+a = "5"
+b = int(a)  # Converts string to integer
+```
+
+### Common Type Casts:
+
+* `int()` → to integer
+* `float()` → to float
+* `str()` → to string
+* `bool()` → to boolean
+
+---
+
+## ⌨️ Taking User Input
+
+```python
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+print(a + b)
+```
+
+* `input()` takes input as **string** by default
+* Use type casting to convert it to other types
+
+---
+
+## 💬 Comments, Escape Sequences & Print
+
+### 💡 Comments
+
+* Use `#` for single-line comments
+* Use `'''` or `"""` for multi-line comments
+
+```python
+# This is a comment
+''' This is
+a multi-line comment '''
+```
+
+> Shortcut: `Ctrl + /` to toggle comments
+
+---
+
+### 🔐 Escape Sequences
+
+Used to include special characters in strings:
+
+| Escape | Meaning      |
+| ------ | ------------ |
+| `\n`   | Newline      |
+| `\t`   | Tab          |
+| `\\`   | Backslash    |
+| `\"`   | Double quote |
+| `\'`   | Single quote |
+
+---
+
+### 🖨️ The `print()` Function
+
+```python
+print("Hello", "World", sep="-", end="!\n")
+```
+
+* `sep` → defines separator between multiple values
+* `end` → defines what to print at the end (default: `\n`)
+
+---
+
+📁 **Tip:** Save this file as `README.md` inside a beginner Python folder for better GitHub browsing.
+
+Let me know if you want the same as a `.py` file or with code comments instead of Markdown.
